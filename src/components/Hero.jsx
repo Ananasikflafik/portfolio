@@ -2,10 +2,10 @@ import { ArrowUpRight, ChevronDown, } from 'lucide-react';
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const stats = [
-    { value: "x", label: "Year of study" },
-    { value: "x", label: "Projects" },
-    { value: "x", label: "Programming languages" },
-    { value: "x", label: "GPA" },
+    { value: "10.0", label: "CGPA" },
+    { value: "4", label: "Projects" },
+    { value: "2", label: "Year of study" },
+    { value: "3", label: "Programming languages" }, 
 ];
 
 const socials = [
@@ -58,8 +58,8 @@ function Hero() {
             <div className="mt-16 pt-8 border-t border-border grid grid-cols-2 justify-center md:grid-cols-4 gap-8">
                 {stats.map(({value, label}) => (
                     <div key={label}>
-                        <div className='font-display text-4xl'>{value}</div>
-                        <div className='font-mono text-sm tracking-widest uppercase text-muted-foreground mt-1'>{ label}</div>
+                        <div className='font-medium font-display text-3xl '>{value}</div>
+                        <div className='font-mono text-base tracking-widest uppercase text-muted-foreground mt-1'>{ label}</div>
                         </div>
                     ))}
             </div>
