@@ -61,7 +61,7 @@ function Projects() {
                         <Wrapper
                             key={project.name} 
                             {...wrapperProps}
-                            className='group bg-background p-8 hover:bg-card transition-colors'>
+                            className='group bg-background border-2 border-background p-8 hover:bg-card hover:border-purple-300 transition-colors'>
                             
                             {/*Year + arrow */}
                             <div className="flex justify-between items-start mb-4">
@@ -88,7 +88,7 @@ function Projects() {
                                 {project.tags.map((tag) => (
                                     <span
                                     key={tag}
-                                    className="font-mono text-xs px-2 py-1 border border-border text-muted-foreground">
+                                    className="font-mono text-sm px-2 py-1 border border-border text-muted-foreground">
                                         {tag}
                                     </span>
                                 ))}
