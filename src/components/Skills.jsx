@@ -55,10 +55,10 @@ function Skills() {
                     {LANGUAGES.map(({ lang, level }) => (
                         <div key={lang}>
                         <div
-                            className="text-sm font-medium text-foreground"> 
+                            className="text-s font-medium text-foreground"> 
                             {lang}
                         </div>
-                        <div className="font-mono text-xs text-muted-foreground mt-1">
+                        <div className="font-mono text-sm text-muted-foreground mt-1">
                                 {level}
                             </div>
                         </div>    
