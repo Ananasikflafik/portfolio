@@ -50,7 +50,7 @@ function Education() {
     const [expandedAct, setExpandedAct] = useState(null);
 
     return (
-        <section id="education" className="pt-24 pb-24 px-6 max-w-5xl m-auto">
+        <section id="education" className="py-24 px-6 max-w-5xl m-auto">
             <div className="flex justify-between items-baseline mb-12">
                 <h2 className="font-display text-4xl text-foreground italic font-semibold">Education</h2>
                 <span className="font-mono text-sm tracking-widest uppercase text-muted-foreground">
