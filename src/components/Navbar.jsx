@@ -1,9 +1,12 @@
 import { useState } from "react";
+import { Sun, Moon } from 'lucide-react';
+import { useTheme } from '../useTheme';
 
 const NAV_LINKS = ["Projects", "Skills", "Education", "Contacts"];
 
 function Navbar() {
     const [open, setOpen] = useState(false);
+    const { theme, toggle } = useTheme();
 
     const scrollTo = (id) => {
         document.getElementById(id.toLowerCase())
@@ -29,13 +32,31 @@ function Navbar() {
                         </button>
                     )) }
                 </nav>
-                <button className="md:hidden font-mono text-base tracking-widest uppercase text-muted-foreground"
-                    onClick={() => setOpen((v) => !v)}
+                 <button
+                    onClick={toggle}
+                    aria-label="Toggle theme"
+                    className="p-2 text-muted-foreground hover:text-foreground transition-colors"
                 >
-                    {open ? "Close" : "Menu"}
-                    
-                    </button>
-            </div>
+                    {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
+                </button>
+                </div>
+                <div className="md:hidden flex items-center gap-4">
+          {/* Кнопка перемикача теми — мобільний */}
+          <button
+            onClick={toggle}
+            aria-label="Toggle theme"
+            className="p-2 text-muted-foreground hover:text-foreground transition-colors"
+          >
+            {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
+          </button>
+
+          <button
+            className="font-mono text-xs tracking-widest uppercase text-muted-foreground"
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? "Close" : "Menu"}
+          </button>
+        </div>
 
             {open &&
                 <div className="md:hidden border-t border-border px-6 pt-4 pb-6 flex flex-col gap-4">

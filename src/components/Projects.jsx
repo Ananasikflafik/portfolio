@@ -8,7 +8,7 @@ const PROJECTS = [
         description:
         "This site. Designed and built from scratch using React and Tailwind CSS with a custom dark theme, responsive layout, and automatic CI/CD deployment via Vercel.",
         href: "https://github.com/YOUR_USERNAME/portfolio", // ← заміни
-        live: "https://YOUR_SITE.vercel.app",         
+        live: "https://portfolio-bay-three-80.vercel.app/",         
     },
 
     { name: "Remote-Controlled Cannon",

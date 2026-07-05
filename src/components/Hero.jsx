@@ -20,7 +20,7 @@ function Hero() {
             <div className='grid md:grid-cols-[1fr_auto] gap-12 items-end'>
                 <div>
                     <p className='font-mono uppercase text-primary mb-6 text-base tracking-normal'>
-                        Available for work · San Francisco
+                        Available for work · Ottawa, Canada
                     </p>
                     <h1 className='font-display font-medium text-foreground text-[clamp(3.5rem,10vw,7rem)] leading-[0.92] tracking-tight mb-8'>
                         Anastasiia
@@ -28,9 +28,9 @@ function Hero() {
                         Kozak
                     </h1>
                     <p className='text-lg text-muted-foreground max-w-xl leading-relaxed'>
-                        djfndjnfjdnfdjndjfndj fjdsnfjdsn dsjfnsjdnfjs nfj nfjsnfjs  n 
-                        fsnf  jnjdnfjs nfnngnsj gnsjngj sngjdngdjngj dn gjdfdfngjngd
-                         ngjdngdjng jdnn jdngj njgsnnw nsjn njgn djngdnsdfn s n sngsn
+                        CS student at the University of Ottawa building things at the intersection
+                        of software and hardware — from web apps to Raspberry Pi-powered devices.
+                        I like understanding how systems work from the ground up.
                     </p>
                 </div>
 
