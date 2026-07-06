@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Sun, Moon } from 'lucide-react';
 import { useTheme } from '../useTheme';
+import { backInOut, motion } from 'framer-motion';
 
 const NAV_LINKS = ["Projects", "Skills", "Education", "Contacts"];
 
@@ -32,15 +33,18 @@ function Navbar() {
                         </button>
                     )) }
                 </nav>
-                 <button
-                    onClick={toggle}
-                    aria-label="Toggle theme"
-                    className="hidden md:flex items-center p-2 text-muted-foreground hover:text-foreground transition-colors"
-                >
-                    {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
+
+                <button className={`my-auto hidden md:flex items-center text-background transition-colors
+                 bg-background border-muted-foreground border w-12 h-6 rounded-2xl p-1 cursor-pointer ${theme === 'light' ? "justify-end" : "justify-start"}`}
+                        onClick={toggle}>
+                    <motion.div layout transition={{ type: "spring", visualDuration: 0.5, bounce: 0.2, }}
+                    className="w-5 h-5 bg-foreground rounded-4xl flex items-center justify-center">
+                        {theme === 'light' ? <Sun size={14} /> : <Moon size={14} />}
+                    </motion.div>
                 </button>
-                </div>
-                <div className="md:hidden flex items-center justify-start gap-4">
+
+                {/*mobile menu + theme-togggle button*/}<div 
+                    className="md:hidden flex items-center justify-start gap-4">
                     <button
                         className="font-mono text-xs tracking-widest uppercase text-muted-foreground pl-4"
                         onClick={() => setOpen((v) => !v)}
@@ -52,10 +56,14 @@ function Navbar() {
                         onClick={toggle}
                         aria-label="Toggle theme"
                         className="p-2 text-muted-foreground hover:text-foreground transition-colors"
+                       
                     >
+
                         {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
                     </button>
-                    </div>
+                </div>
+                
+            </div>
 
             {open &&
                 <div className="md:hidden border-t border-border px-6 pt-4 pb-6 flex flex-col gap-4">
