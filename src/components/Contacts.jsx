@@ -3,7 +3,7 @@ import { ArrowUpRight } from 'lucide-react';
 
 const socials = [
     { icon: FaGithub, label: "github.com/Ananasikflafik", href: "https://github.com/Ananasikflafik" },
-    { icon: FaLinkedin, label: "www.linkedin.com/in/anastasiia-kozak---", href: "https:www.linkedin.com/in/anastasiia-kozak---" },
+    { icon: FaLinkedin, label: "www.linkedin.com/in/anastasiia-kozak---", href: "https://www.linkedin.com/in/anastasiia-kozak---" },
     { icon: FaEnvelope, label: "akozak316@gmail.com", href: "mailto:akozak316@gmail.com" },
 ];
 

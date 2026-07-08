@@ -10,7 +10,7 @@ const stats = [
 
 const socials = [
     { icon: FaGithub, label: "GitHub", href: "https://github.com/Ananasikflafik" },
-    { icon: FaLinkedin, label: "LinkedIn", href: "https:www.linkedin.com/in/anastasiia-kozak---" },
+    { icon: FaLinkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/anastasiia-kozak---" },
     { icon: FaEnvelope, label: "Email", href: "mailto:akozak316@gmail.com" },
 ];
 
