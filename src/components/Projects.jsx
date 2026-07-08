@@ -105,7 +105,7 @@ function Projects() {
 
             {/* Future Projects*/}
             <p className="mt-8 font-mono text-muted-foreground text-center tracking-wider">
-                COMING SOON — Smart Mirror (Raspberry Pi) · Job Application Tracker (Full-Stack)
+                COMING SOON — Job Application Tracker (Full-Stack)
             </p>
         </section>
     );
