@@ -11,8 +11,8 @@ const EDUCATION = [
     highlights: [
       "Dean's Honour List — Fall 2025 & Winter 2026 (A+ in every course both semesters)",
       "Co-op stream — structured industry placements built into the degree",
-      "Completed: Calculus I & II, Linear Algebra, Discrete Mathematics for Computing, Digital Systems I, Intro to Computing I & II, Logic I, Technical Report Writing",
-      "Upcoming (Fall 2026): Data Structures & Algorithms, Computer Architecture, Advanced C++, Software Engineering",
+      "Completed: Calculus I & II, Linear Algebra, Discrete Mathematics for Computing, Digital Systems I, Intro to Computing I & II, Technical Report Writing",
+      "Ongoing: Data Structures & Algorithms, Computer Architecture, Advanced C++, Software Engineering",
       "Upcoming (Winter 2027): Databases I, Programming Paradigms, Software Construction",
     ],
   },
@@ -20,22 +20,29 @@ const EDUCATION = [
 
 const ACTIVITIES = [
   {
-    name: "Women-in-Tech Hackathon",
-    org: "Carleton University",
-    period: "2025",
+    name: "Director of Events",
+    org: "Ottawa Ukrainian Student Club",
+    period: "2026 - Present",
     description:
-      "Built a pixel-art browser game in JavaScript with a team of 3 — none of us had used the language before. Designed, coded, and shipped a working game within 24 hours.",
+      "Organized 6 events since joining in September, the largest with 30+ attendees. Managed resources and developed event ideas, then carried them through to execution",
+  },
+  {
+    name: "Volonteer",
+    org: "Capital Ukrainian Festival",
+    period: "2026",
+    description:
+      "Handled cash, prepared and served food, and assisted customers. Worked as part of a team in a fast-paced event setting",
   },
   {
     name: "Computer Science Club",
-    org: "High School",
+    org: "Glebe Collegiate Institute",
     period: "2023 — 2025",
     description:
       "Regular participation in coding challenges, project building, and peer knowledge-sharing sessions.",
   },
   {
     name: "International Friendship Club",
-    org: "High School",
+    org: "Glebe Collegiate Institute",
     period: "2023 — 2025",
     description:
       "Organized cross-cultural events and supported international students — reflects the multilingual background and collaborative mindset carried into university.",

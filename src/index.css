@@ -15,18 +15,18 @@
 }
 
 :root.light {
-  --background: #faf8f3;
+  --background: #fdfcfa;
   --foreground: #1b1a17;
 
-  --card: #f1eee8;
+  --card: #f5f5ffb9;
 
   --primary: #8c36c9;
 
-  --secondary: #ebe7de;
+  --secondary: #edeced;
 
-  --muted-foreground: #757167;
+  --muted-foreground: #4b4b4b;
 
-  --border: #ddd8cf;
+  --border: #d9cfdd;
 }
 
 *,

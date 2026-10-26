@@ -3,9 +3,9 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const stats = [
     { value: "10.0", label: "CGPA" },
-    { value: "4", label: "Projects" },
+    { value: "6", label: "Projects" },
     { value: "2", label: "Year of study" },
-    { value: "3", label: "Programming languages" }, 
+    { value: "5", label: "Programming languages" }, 
 ];
 
 const socials = [

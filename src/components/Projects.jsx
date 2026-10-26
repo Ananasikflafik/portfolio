@@ -2,13 +2,38 @@ import { ArrowUpRight} from "lucide-react";
 
 // Maybe shorter descriptions !!!
 const PROJECTS = [
+     { name: "StudyHub App",
+        year: "Ongoing",
+        tags: ["Kotlin", "SQLite", "Android Studio"],
+        description:
+        "Collaborating in a team of five to develop an Android application for managing students, study group leaders, and administrators. The application provides role-based access and user management features to support an organized study group environment. ",
+        href: "", 
+        live: "",
+    },
+    { name: "Perfect Day",
+        year: "2026",
+        tags: ["Javascript", "Canvas API"],
+        description:
+        "Built a JavaScript daily planner game in 7 hours: completing tasks earns points that unlock character accessories and new locations",
+        href: "", 
+        live: "",
+    },
     { name: "Portfolio Website",
         year: "2026",
         tags: ["React", "Tailwind CSS", "Vite", "Vercel"],
         description:
         "This site. Designed and built from scratch using React and Tailwind CSS with a custom dark theme, responsive layout, and automatic CI/CD deployment via Vercel.",
-        href: "https://github.com/YOUR_USERNAME/portfolio", // ← заміни
+        href: "https://github.com/Ananasikflafik/portfolio",
         live: "https://portfolio-bay-three-80.vercel.app/",         
+    },
+
+     { name: "Pixel Game",
+        year: "2025",
+        tags: ["JavaScript", "Canvas API", "24-hour build"],
+        description:
+        "Built at Carleton University's women-in-tech hackathon in a team of 3. A pixel-art browser game written in JavaScript — a language none of us had used before. Learned the language and shipped a working game in one day.",
+        href: "",
+        live: "",
     },
 
     { name: "Remote-Controlled Cannon",
@@ -26,15 +51,6 @@ const PROJECTS = [
         description:
         "Full implementation of the Threes puzzle game in Java. Covers tile-merging logic, score tracking, and win/loss detection — built to practice object-oriented design patterns.",
         href: "",
-        live: "",
-    },
-        
-    { name: "Pixel Game — Hackathon",
-        year: "2025",
-        tags: ["JavaScript", "Canvas API", "24-hour build"],
-        description:
-        "Built at Carleton University's women-in-tech hackathon in a team of 3. A pixel-art browser game written in JavaScript — a language none of us had used before. Learned the language and shipped a working game in one day.",
-        href: "", // додай посилання якщо є
         live: "",
     },
 ];
@@ -105,7 +121,7 @@ function Projects() {
 
             {/* Future Projects*/}
             <p className="mt-8 font-mono text-muted-foreground text-center tracking-wider">
-                COMING SOON — Job Application Tracker (Full-Stack)
+                COMING SOON — My Books Tracker (Full-Stack)
             </p>
         </section>
     );

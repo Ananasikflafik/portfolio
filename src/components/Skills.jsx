@@ -1,11 +1,10 @@
 import { Languages } from "lucide-react";
 
 const SKILLS = [
-    {category: "Programming Languages", items: ["Python", "Java", "JavaScript", "C (intro)",]},
+    { category: "Programming Languages", items: ["Python", "Java", "JavaScript", "C++", "Kotlin",] },
+    {category: "Databases", items: ["SQLite", "PostgreSQL"]},
     {category: "Hardware & Embedded", items: ["Raspberry Pi", "Ardurino", "Digital Circuits", "Raspberry Pi OS",]},
     {category: "Web & Tools", items: ["React", "Tailwind CSS", "HTML/CSS", "Git", "Github", "Vite", "VS Code"]},
-    {category: "AI Tools", items: ["Claude", "ChatGPT", "GitHub Copilot",]},
-    {category: "Concepts", items: ["OOP", "Data Structures (intro)", "Digital System", "Discrete Math", "Linear Algebra", "Calculus",]},
 ];
 const LANGUAGES = [
     { lang: "Ukrainian", level: "Native" },
