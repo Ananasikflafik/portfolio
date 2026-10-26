@@ -3,7 +3,7 @@ import { Languages } from "lucide-react";
 const SKILLS = [
     { category: "Programming Languages", items: ["Python", "Java", "JavaScript", "C++", "Kotlin",] },
     {category: "Databases", items: ["SQLite", "PostgreSQL"]},
-    {category: "Hardware & Embedded", items: ["Raspberry Pi", "Ardurino", "Digital Circuits", "Raspberry Pi OS",]},
+    {category: "Hardware & Embedded", items: ["Raspberry Pi", "Arduino", "Digital Circuits", "Raspberry Pi OS",]},
     {category: "Web & Tools", items: ["React", "Tailwind CSS", "HTML/CSS", "Git", "Github", "Vite", "VS Code"]},
 ];
 const LANGUAGES = [
